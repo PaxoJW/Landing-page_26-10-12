@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: #1F2937;
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+.info h2{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.action {
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+
+.hero p, header .links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.quote p.author {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.action h4 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+}
+
