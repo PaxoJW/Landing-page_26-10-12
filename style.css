@@ -11,14 +11,19 @@ header {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 10px 100px 10px 100px;
+    padding: 10px 200px 10px 200px;
+}
+
+header .links {
+    display: flex;
+    gap: 20px;
 }
 
 .hero {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 100px 100px 100px 100px;
+    padding: 100px 200px 100px 200px;
 }
 
 .hero .content {
@@ -26,7 +31,7 @@ header {
 }
 
 .info {
-    padding: 50px 100px 100px 100px;
+    padding: 100px 300px 100px 300px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -50,16 +55,29 @@ header {
     color: #1F2937;
     font-weight: 300;
     font-style: italic;
+    padding: 100px 300px 100px 300px;
+}
+
+.quote .author {
+    float: right;
 }
 
 .action {
     background-color: #3882F6;
     color: #E5E7EB;
+    margin: 100px 200px 100px 200px;
+    padding: 50px 100px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
 }
 
 footer {
     background-color: #1F2937;
     color: #E5E7EB;
+    padding: 10px 200px 10px 200px;
+    display: flex;
+    justify-content: center;
 }
 
 .logo {
